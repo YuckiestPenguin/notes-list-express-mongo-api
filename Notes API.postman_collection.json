@@ -31,12 +31,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/notes",
-					"protocol": "http",
+					"raw": "{{endpoint}}/notes",
 					"host": [
-						"localhost"
+						"{{endpoint}}"
 					],
-					"port": "3000",
 					"path": [
 						"notes"
 					]
@@ -67,12 +65,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/notes",
-					"protocol": "http",
+					"raw": "{{endpoint}}/notes",
 					"host": [
-						"localhost"
+						"{{endpoint}}"
 					],
-					"port": "3000",
 					"path": [
 						"notes"
 					]
@@ -107,12 +103,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/notes/5d9a8e9287f5621251f9fa77",
-					"protocol": "http",
+					"raw": "{{endpoint}}/notes/5d9a8e9287f5621251f9fa77",
 					"host": [
-						"localhost"
+						"{{endpoint}}"
 					],
-					"port": "3000",
 					"path": [
 						"notes",
 						"5d9a8e9287f5621251f9fa77"
@@ -145,12 +139,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/notes/5d9a8e9287f5621251f9fa77",
-					"protocol": "http",
+					"raw": "{{endpoint}}/notes/5d9a8e9287f5621251f9fa77",
 					"host": [
-						"localhost"
+						"{{endpoint}}"
 					],
-					"port": "3000",
 					"path": [
 						"notes",
 						"5d9a8e9287f5621251f9fa77"
