@@ -9,7 +9,7 @@ exports.create = (req, res) => {
     }
 
     const note = new Note({
-        title: req.body.title || "Untitled Note",
+        title: req.body.title,
         content: req.body.content
     });
 
